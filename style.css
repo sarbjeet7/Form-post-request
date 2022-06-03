@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: normal;
+  background: rgb(245, 245, 245);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 35px;
+}
+
+#form {
+  margin: 35px auto 0px auto;
+  width: 80%;
+  background-color: #000;
+  padding: 50px 40px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 1px #eee;
+  color: #fff;
+}
+
+
+#form label {
+  font-size: 20px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+#form input {
+  padding: 12px 20px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  background: rgb(255, 255, 255);
+  font-size: 18px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+#form input:focus {
+  border-bottom: 2px solid #1a883f;
+}
+
+.contact-form textarea {
+  padding: 12px 20px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  background: rgb(255, 255, 255);
+  font-size: 18px;
+  border-radius: 3px;
+  width: 100%;
+  font-family: inter;
+  font-weight: normal;
+}
+
+#form textarea:focus {
+  border-bottom: 2px solid #1a883f;
+}
+
+#form button {
+  font-size: 19px;
+  width: 100%;
+  margin-top: 25px;
+  border: none;
+  padding: 12px 20px;
+  background-color: #22b352;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+#form button:hover {
+  background-color: #45d275;
+}
+
+@media all and (min-width: 1000px) {
+  #form{
+    width: 40%;
+  }
+}
+
+@media all and (min-width: 1080px) {
+  #form {
+    width: 30%;
+  }
+}
